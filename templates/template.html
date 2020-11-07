@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+   <meta charset="utf-8">
+   <title>Welcome To RoguePsych</title>
+   <link rel="stylesheet" href="{{ url_for('static',    filename='static.css') }}">
+ </head>
+ <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Welcome To RoguePsych</h1>
+        
+          <nav class="menu">
+            <strong>
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('about') }}">About</a>
+            <a href="{{ url_for('signup') }}">Create An Account</a>
+            <a href="{{ url_for('users') }}">View Other Accounts</a>            
+          </strong>
+          </nav>
+      </div>
+    </header>
+    <p> RoguePsych is an online mental health service for Gen Z, by Gen Z. Soak up the janky 90s aesthetic while it lasts x </p>
+    
+    
+ </body>
+</html>
